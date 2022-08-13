@@ -1,5 +1,5 @@
 // - Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
-let weather = ['sunny', 'windy', 'foggy', 'rainy', 'fabulous', 'awful', true, false, 17, -11]
+let weather = [ 'sunny', 'windy', 'foggy', 'rainy', 'fabulous', 'awful', true, false, 17, -11 ]
 
 console.log(weather[0]);
 console.log(weather[1]);
@@ -29,7 +29,7 @@ let book2 = {
 }
 console.log(book2);
 
-let book3 = {
+let book3 ={
     title: 'The Sorrows of Satan',
     pageCount: 340,
     genre: 'novel'
@@ -42,8 +42,8 @@ console.log(book3);
 let books = [
     {title: 'HarryPotter', pageCount: 860, genre: 'fantasy'},
     {title: 'Papillon', pageCount: 516, genre: 'autobiographical novel'},
-    {title: 'The Sorrows of Satan', pageCount: 340, genre: 'novel'},
-    {authors: [{name: 'J. K. Rowling', age: 48}, {name: 'Henri Charrière', age: 66}, {name: 'Mary Corelli[', age: 68}]}
+    {title: 'The Sorrows of Satan', pageCount: 340, genre: 'tragedy'},
+    {authors:[{name:'J. K. Rowling', age: 48}, {name: 'Henri Charrière', age: 66}, {name: 'Mary Corelli[', age: 28}]}
 ]
 
 console.log(books);
